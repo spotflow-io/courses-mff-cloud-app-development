@@ -4,10 +4,10 @@
 
 ## Lecturers
 
-- **Tomáš Pajurek** - CTO at Spotflow, Team Lead and Software Architect at Datamole.
-- **David Nepožitek** - Software Engineer at Spotflow and Datamole.
+- **Tomáš Pajurek** - CTO at Spotflow.
+- **David Nepožitek** - Software Engineer & Developer Advocate at Spotflow.
 
-[Datamole](https://www.datamole.ai/) helps industrial companies become more sustainable and profitable by developing innovative data & AI-driven solutions. [Spotflow](https://spotflow.io/) is Datamole's spinoff, building industrial IoT platform for managing devices and collecting data reliably at scale.
+[Spotflow](https://spotflow.io/) is building industrial IoT & embedded observability platform for managing devices and collecting data reliably at scale.
 
 ## Course outline
 
