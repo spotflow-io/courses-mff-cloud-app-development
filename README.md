@@ -12,14 +12,14 @@ There will be 5 lessons and one semestral project in total. First four lessons w
 
 # Course Outline
 
-* **Lesson 1** (25. 04. 2024)
+* **Lesson 1** (17. 04. 2025)
   * Introduction.
   * Specifics of software engineering for IoT and cloud.
   * Overview of relevant Azure resources - SQL, Functions with HTTP trigger, ARM Templates. 
   * Case study (basic solution).
   * For more details visit [lesson-1](./lesson-1/README.md).
 
-* **Lesson 2** (02. 05. 2024)
+* **Lesson 2** (24. 04. 2025)
   * Horizontal vs. vertical scalability.
   * Partitioning & replication. 
   * Types, scalability and economic aspects of various storages.
@@ -27,21 +27,21 @@ There will be 5 lessons and one semestral project in total. First four lessons w
   * Case study (continued - scalable storage).
   * For more details visit [lesson-2](./lesson-2/README.md).
 
-* **Lesson 3** (09. 05. 2024)
+* **Lesson 3** (15. 05. 2025)
   * Asynchronous communication, messaging.
   * Overview of relevant Azure resources - Event Hubs, Service Bus, Functions with Event Hub trigger.
   * Case study (continued - asynchronous communication)
   * For more details visit [lesson-3](./lesson-3/README.md).
 
-* **Lesson 4** (16. 05. 2024)
+* **Lesson 4** (22. 05. 2025)
   * Observability, OpenTelemetry, Instrumentation and Troubleshooting of Cloud Services.
   * Case study (continued - observability).
   * For more details visit [lesson-4](./lesson-4/README.md).
+  * Course summary.
   * Semestral project assignment. For more details visit [semestral-project-assignment.md](./semestral-project-assignment.md).
 
-* **Lesson 5** (23. 05. 2024)
+* **Lesson 5 / Presentation** (???)
   * Presentations of semestral projects.
-  * Course summary.
 
 # Prerequisites 
 
@@ -67,7 +67,7 @@ The semestral project will require students to create a system design for a simp
 Last lesson of the subcourse will be dedicated to the **voluntary** presentation of the semestral projects. Students who decide to present during this last lesson will have at least 15 minutes to present their solution followed-up with a discussion. During the discussion, additional questions asked and possible problems in the solution might be resolved. Authors of presented solutions for which all problems are resolved during the discussion **will receive the subcourse credit right away**.
 
 > [!IMPORTANT]
-> The recommended due date for submitting the semestral project is **31. 05. 2024**. The semestral project including all feedback rounds must be completed till the end of exam period, i.e. **30. 06. 2024**. When submitted by the recommended due date we guarantee to provide 1 or 2 feedback rounds if needed.
+> The recommended due date for submitting the semestral project is **31. 05. 2025**. The semestral project including all feedback rounds must be completed till the end of exam period, i.e. **30. 06. 2025**. When submitted by the recommended due date we guarantee to provide 1 or 2 feedback rounds if needed.
 
 
 The documents and diagrams representing the solution should be stored in **private GitHub repository** and pushed to the branch `feature/solution`. After that following actions are required:
