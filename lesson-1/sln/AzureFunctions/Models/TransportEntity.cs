@@ -8,7 +8,8 @@ public record TransportEntity(
     string LocationFrom,
     string LocationTo,
     long TimeSpentSeconds,
-    string DeviceId)
+    string DeviceId,
+    string TransportId)
 {
     public static TransportEntity FromTransport(Transport transport) =>
         new(TransportedDate: DateOnly.FromDateTime(dateTime: transport.TransportedAt.UtcDateTime),
@@ -18,5 +19,6 @@ public record TransportEntity(
             LocationFrom: transport.LocationFrom,
             LocationTo: transport.LocationTo,
             TimeSpentSeconds: transport.TransportDurationSec,
-            DeviceId: transport.DeviceId);
+            DeviceId: transport.DeviceId,
+            TransportId: transport.TransportId);
 }
