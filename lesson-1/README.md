@@ -197,6 +197,9 @@ Azure Docs: https://docs.microsoft.com/en-us/azure/templates/
 
 # Case study problem statement
 
+![Facility](./imgs/facility.png)
+
+
 Your client operates a delivery company with five sorting facilities. In these facilities, robots retrieve parcels from the inbound zones and transport them to the outbound zones, where they are prepared for the next stages of delivery. The client wants to keep track of the parcel movement within the facilities and get daily reports.
 
 **Example:**
@@ -211,8 +214,7 @@ Robot R-1 moves parcel 4242 from inbound zone I-12 to outbound zone O-25 in 40 s
 
 They want to consume the data via HTTP API from their auditing service.
 
-> Let's assume that (date, facilityId, parcelId) identifies exactly one transport within the facility. 
-> That is, on a specific day, in a particular facility, each parcel could be transported at most once.
+> Let's assume that each parcel is transported at most once per day in a facility.
 
 ## Ideas - discussion
 
@@ -390,7 +392,7 @@ Create the individual Azure Functions
 ```pwsh
 cd ./iot-usecase-1/AzureFunctions
 
-func new --name "Reporter" --template "HTTP trigger" --authlevel "function"
+func new --name "EventConsumer" --template "HTTP trigger" --authlevel "function"
 func new --name "GetDailyStatistics" --template "HTTP trigger" --authlevel "function"
 func new --name "GetTransport" --template "HTTP trigger" --authlevel "function"
 

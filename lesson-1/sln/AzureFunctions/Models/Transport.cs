@@ -7,4 +7,5 @@ public record Transport(
     string LocationTo,
     long TransportDurationSec,
     string FacilityId,
-    string DeviceId);
+    string DeviceId,
+    string TransportId);
