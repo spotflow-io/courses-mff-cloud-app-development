@@ -24,6 +24,8 @@ See the [Course Outline](../README.md) in the root of the repository.
 - **Platform as a Service (PaaS)**: web servers, databases, serverless, Kubernetes.
 - **Software as a Service (SaaS)**: applications, analytics, machine Learning, geospatial, etc.
 
+![CAP/PACELC](./imgs/diagram_2.png)
+
 # Designing systems for the cloud - the good parts
 
 ## Easily accessible infrastructure for prototyping

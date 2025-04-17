@@ -22,6 +22,7 @@ There will be 5 lessons and one semestral project in total. First four lessons w
 * **Lesson 2** (24. 04. 2025)
   * Horizontal vs. vertical scalability.
   * Partitioning & replication. 
+  * CAP/PACELC theorem.
   * Types, scalability and economic aspects of various storages.
   * Overview of relevant Azure resources - Storage (Tables, Blobs), App Service.
   * Case study (continued - scalable storage).
