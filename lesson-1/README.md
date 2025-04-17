@@ -390,7 +390,7 @@ Create the individual Azure Functions
 ```pwsh
 cd ./iot-usecase-1/AzureFunctions
 
-func new --name "Reporter" --template "HTTP trigger" --authlevel "function"
+func new --name "EventConsumer" --template "HTTP trigger" --authlevel "function"
 func new --name "GetDailyStatistics" --template "HTTP trigger" --authlevel "function"
 func new --name "GetTransport" --template "HTTP trigger" --authlevel "function"
 
