@@ -22,7 +22,7 @@ See the [Course Outline](../README.md) in the root of the repository.
 
 - **Infrastructure as a Service (IaaS)**: virtual machines, disks, networking, dedicated machines.
 - **Platform as a Service (PaaS)**: web servers, databases, serverless, Kubernetes.
-- **Software as a Service (SaaS)**: applications, analytics, machine Learning, geospatial, etc.
+- **Software as a Service (SaaS)**: applications, analytics, machine Learning, geospatial, LLMs etc.
 
 ![CAP/PACELC](./imgs/diagram_2.png)
 
