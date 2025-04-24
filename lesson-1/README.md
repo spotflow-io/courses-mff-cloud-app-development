@@ -209,8 +209,11 @@ Robot R-1 moves parcel 4242 from inbound zone I-12 to outbound zone O-25 in 40 s
 **The client needs answers for the following:**
 
 - What was the daily volume of parcels transported within the facilities?
+  - **(Date, Facility)** -> Number of parcels transported
 - What was the daily average transportation time?
+  - **(Date)** -> Average time of transportation
 - How did the parcel 4242 move within a facility F-1 on a day 20-04-2024?
+  - **(Date, Facility, Parcel)** -> Details of the transport
 
 They want to consume the data via HTTP API from their auditing service.
 
