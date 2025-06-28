@@ -48,6 +48,12 @@ https://learn.microsoft.com/en-us/azure/architecture/patterns/sequential-convoy
 
 ![RLog-based queues](./imgs/log-based-queues.png)
 
+#### Choosing number of partitions
+
+| Incentives for _more_ partitions | Incentives for _less_ partitions                |
+| -------------------------------- | ----------------------------------------------- |
+| More parallelism.                | Larger batch size.                              |
+| More granular isolation.         | Less overhead (# of processors, network calls). |
 
 # Overview of relevant Azure resources
 
@@ -55,16 +61,16 @@ https://learn.microsoft.com/en-us/azure/architecture/patterns/sequential-convoy
 
 Traditional message broker. It supports:
 
-* **Queues** (point-to-point, competing consumers)
-* **Topics** (publish/subscribe)
-  * **Subscriptions** (competing consumers)
-* Time-to-live (TTL) configurable per message.
-* Filtering.
-* Auto-Forwarding.
-* Dead-lettering.
-* Sessions.
-* Transactions.
-* Auto-delete.
+- **Queues** (point-to-point, competing consumers)
+- **Topics** (publish/subscribe)
+  - **Subscriptions** (competing consumers)
+- Time-to-live (TTL) configurable per message.
+- Filtering.
+- Auto-Forwarding.
+- Dead-lettering.
+- Sessions.
+- Transactions.
+- Auto-delete.
 
 Azure Docs: https://learn.microsoft.com/en-us/azure/service-bus-messaging/
 
@@ -72,10 +78,10 @@ Azure Docs: https://learn.microsoft.com/en-us/azure/service-bus-messaging/
 
 Log-based queue:
 
-* Does not provide built-in support for checkpointing (checkpoints are typically stored in Blobs or Tables).
-* Time-to-live is configurable on the level of the Event Hub, not individual events.
-* No routing features similar to Service Bus.
-* Only batch inserts are transactional.
+- Does not provide built-in support for checkpointing (checkpoints are typically stored in Blobs or Tables).
+- Time-to-live is configurable on the level of the Event Hub, not individual events.
+- No routing features similar to Service Bus.
+- Only batch inserts are transactional.
 
 Azure Docs: https://learn.microsoft.com/en-us/azure/event-hubs/
 
