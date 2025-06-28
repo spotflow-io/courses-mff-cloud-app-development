@@ -32,6 +32,12 @@
 
 ![Competing Consumers](./imgs/competing-consumers.png)
 
+### Sequential Convoy
+
+![Sequential Convoy](./imgs/sequential-convoy.png)
+
+https://learn.microsoft.com/en-us/azure/architecture/patterns/sequential-convoy
+
 ## Message queues
 
 ### Traditional message brokers
