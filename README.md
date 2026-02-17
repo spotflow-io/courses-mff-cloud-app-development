@@ -12,14 +12,14 @@ There will be 5 lessons and one semestral project in total. First four lessons w
 
 # Course Outline
 
-* **Lesson 1** (17. 04. 2025)
+* **Lesson 1** (23. 04. 2026)
   * Introduction.
   * Specifics of software engineering for IoT and cloud.
   * Overview of relevant Azure resources - SQL, Functions with HTTP trigger, ARM Templates. 
   * Case study (basic solution).
   * For more details visit [lesson-1](./lesson-1/README.md).
 
-* **Lesson 2** (24. 04. 2025)
+* **Lesson 2** (30. 04. 2026)
   * Horizontal vs. vertical scalability.
   * Partitioning & replication. 
   * CAP/PACELC theorem.
@@ -28,20 +28,21 @@ There will be 5 lessons and one semestral project in total. First four lessons w
   * Case study (continued - scalable storage).
   * For more details visit [lesson-2](./lesson-2/README.md).
 
-* **Lesson 3** (15. 05. 2025)
+* **Lesson 3** (07. 05. 2026)
   * Asynchronous communication, messaging.
   * Overview of relevant Azure resources - Event Hubs, Service Bus, Functions with Event Hub trigger.
   * Case study (continued - asynchronous communication)
   * For more details visit [lesson-3](./lesson-3/README.md).
 
-* **Lesson 4** (22. 05. 2025)
+* **Lesson 4** (14. 05. 2026)
   * Observability, OpenTelemetry, Instrumentation and Troubleshooting of Cloud Services.
   * Case study (continued - observability).
   * For more details visit [lesson-4](./lesson-4/README.md).
   * Course summary.
   * Semestral project assignment. For more details visit [semestral-project-assignment.md](./semestral-project-assignment.md).
 
-* **Lesson 5 / Presentation** (???)
+* **Lesson 5 / Presentation**  (21. 05. 2026)
+  * Additional topics.
   * Presentations of semestral projects.
 
 # Prerequisites 
@@ -57,7 +58,7 @@ Students are expected to have a basic understanding of the following topics:
 During the lessons, some topics will be accommpanied with examples in C# programming language. This examples are available in this repository and following software is required to run them:
 
 * IDE for .NET (Visual Studio, Visual Studio Code, Rider)
-* [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+* [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 * [Azure Function Core Tools](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?)
 * [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 
@@ -65,23 +66,14 @@ During the lessons, some topics will be accommpanied with examples in C# program
 
 The semestral project will require students to create a system design for a simple IoT solution. Students are expected to deliver the design in the form of text documents and diagrams. Students can work on the assignment individually or in pairs.
 
-Last lesson of the subcourse will be dedicated to the **voluntary** presentation of the semestral projects. Students who decide to present during this last lesson will have at least 15 minutes to present their solution followed-up with a discussion. During the discussion, additional questions asked and possible problems in the solution might be resolved. Authors of presented solutions for which all problems are resolved during the discussion **will receive the subcourse credit right away**.
+Last lesson of the subcourse will be dedicated to the presentation of the semestral projects. Students who decide to present during this last lesson will have 15 minutes to present their solution followed-up with a discussion. During the discussion, additional questions asked and possible problems in the solution might be resolved. Authors of presented solutions for which all major problems identified are resolved during the discussion **will receive the subcourse credit right away**. For remaining students, **suitable later timeslots will be found** to present their projects.
 
-> [!IMPORTANT]
-> The recommended due date for submitting the semestral project is **31. 05. 2025**. The semestral project including all feedback rounds must be completed till the end of exam period, i.e. **30. 06. 2025**. When submitted by the recommended due date we guarantee to provide 1 or 2 feedback rounds if needed.
+Formal assignments can be found in:
 
+* [Assignment A](./semestral-project-assignment-a.md)
+* [Assignment B](./semestral-project-assignment-b.md)
 
-The documents and diagrams representing the solution should be stored in **private GitHub repository** and pushed to the branch `feature/solution`. After that following actions are required:
-
-* Create a  **Pull Request** from `feature/solution` branch to `main` branch 
-* Add `Read` permissions on the repository to the following GitHub users:
-  * Tomáš Pajurek ([tomas-pajurek](https://github.com/tomas-pajurek))
-  * David Nepožitek ([DavidNepozitek](https://github.com/DavidNepozitek))
-* Send email to `mff-nswi152@spotflow.io`.
-
-This process will enable smooth delivery of feedback via comments.
-
-Formal assignment can be found in the [semestral-project-assignment.md](./semestral-project-assignment.md) file.
+Students presenting during the last lesson will receive one of assignments and the remaining students will receive the other one.
 
 ## Additional recommended resources
 

@@ -1,4 +1,4 @@
-# Anomaly detection in log dumps from IoT Devices
+# Assignment A: Anomaly detection in log dumps from IoT Devices
 
 ## Goal
 
