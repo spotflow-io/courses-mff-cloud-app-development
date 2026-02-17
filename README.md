@@ -39,7 +39,7 @@ There will be 5 lessons and one semestral project in total. First four lessons w
   * Case study (continued - observability).
   * For more details visit [lesson-4](./lesson-4/README.md).
   * Course summary.
-  * Semestral project assignment. For more details visit [semestral-project-assignment.md](./semestral-project-assignment.md).
+  * Semestral project assignment. For more details see [Semestral project](#semestral-project).
 
 * **Lesson 5 / Presentation**  (21. 05. 2026)
   * Additional topics.
