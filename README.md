@@ -1,6 +1,6 @@
 # MFF/NSWI152 - Cloud Application Development - Data Intensive Systems, IoT backends & Observability
 
-This repository contains materials for a subcourse of [NSWI152 (Cloud Application Development / Vývoj cloudových aplikací)](https://www.ksi.mff.cuni.cz/teaching/nswi152-web/) course at the Faculty of Mathematics and Physics, Charles University in Prague. The subcourse is focused Data Intensive Systems, IoT backends & Observability.
+This repository contains materials for a subcourse of [NSWI152 (Cloud Application Development / Vývoj cloudových aplikací)](https://teaching.mff.cuni.cz/nswi152-web/) course at the Faculty of Mathematics and Physics, Charles University in Prague. The subcourse is focused Data Intensive Systems, IoT backends & Observability.
 
 The goal of the subcourse is to:
 
