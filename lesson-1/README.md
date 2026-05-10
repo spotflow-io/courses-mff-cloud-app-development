@@ -337,7 +337,7 @@ Prerequisites: [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-az
 Clone the repository
 
 ```
-git clone https://github.com/datamole-ai/mff-cloud-app-development.git
+git clone https://github.com/spotflow-io/courses-mff-cloud-app-development.git
 ```
 
 Navigate to the `lesson-1/arm` directory and see the [ARM template](/lesson-1/arm/resources.azrm.json). It contains

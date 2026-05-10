@@ -90,8 +90,15 @@ The `Partition Key` and `Row Key` structure must be carefully designed to optimi
 
 #### Queries
 
+Only efficient query patterns are:
+
 - `Point query` (e.g. single entity with `Partition Key` = `X` and `Row Key` = `Y`)
 - `Range query` (e.g. all entities with `Partition Key` = `X` and `Row Key` between `A` and `B`)
+
+Both keys can use usual comparisons such as `eq`, `gt`, `lt`. In every case, the comparison is performed lexicographically and never numerically.
+
+Other patterns are also possible, but they result in a full partition scan (if at least `Partition Key` is specified) or table scan.
+
 
 ### Replication
 
@@ -171,7 +178,7 @@ Prerequisites: [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-az
 Clone the repository
 
 ```
-git clone https://github.com/datamole-ai/mff-cloud-app-development.git
+git clone https://github.com/spotflow-io/courses-mff-cloud-app-development.git
 ```
 
 Navigate to the `lesson-2/arm` directory and see the [ARM template](/lesson-1/arm/resources.azrm.json). It contains
