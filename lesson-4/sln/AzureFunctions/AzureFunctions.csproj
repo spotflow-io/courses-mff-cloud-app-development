@@ -14,10 +14,10 @@
         <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore" Version="1.2.1" />
         <PackageReference Include="Microsoft.Azure.Functions.Worker.OpenTelemetry" Version="1.0.0-preview1" />
         <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.17.2" />
-        <PackageReference Include="OpenTelemetry" Version="1.8.1" />
-        <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.8.1" />
-        <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.8.1" />
-        <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.8.1" />
+        <PackageReference Include="OpenTelemetry" Version="1.15.3" />
+        <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.15.3" />
+        <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.15.3" />
+        <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.15.3" />
     </ItemGroup>
     <ItemGroup>
         <None Update="host.json">
