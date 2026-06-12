@@ -64,9 +64,11 @@ During the lessons, some topics will be accommpanied with examples in C# program
 
 # Semestral project
 
-The semestral project will require students to create a system design for a simple IoT solution. Students are expected to deliver the design in the form of text documents and diagrams. Students can work on the assignment individually or in pairs.
+The semestral project will require students to create a system design for a simple IoT solution. Students are expected to deliver the design in the form of text documents and diagrams. Students can work on the assignment **individually** or in **groups of 2**.
 
-Last lesson of the subcourse will be dedicated to the presentation of the semestral projects. Students who decide to present during this last lesson will have 15 minutes to present their solution followed-up with a discussion. During the discussion, additional questions asked and possible problems in the solution might be resolved. Authors of presented solutions for which all major problems identified are resolved during the discussion **will receive the subcourse credit right away**. For remaining students, **suitable later timeslots will be found** to present their projects.
+**Last lesson** of the subcourse will be dedicated to the presentation of the semestral projects. Students who decide to present during this last lesson will have 20 minutes to present and discuss their solution. For remaining students, there will be **one additional timeslot available** between the last lesson and end of the semester. 
+
+Students are allowed to use any online resources as well AI to prepare the semestral projects. However, during the presentation students must be able to reason about all design decisions they made, offer solutions to identified issues and answer questions from the lectures. Students with **obvious lack of understanding** of the subject will not be allowed to finished the course.
 
 Formal assignments can be found in:
 
